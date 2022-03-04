@@ -7,6 +7,6 @@ This is an opinionated typescript node template project
     - This let vscode work with yarn properly.
 - Run `yarn` in project directory.
 
-If you dislike format on save, you can disable it in `.vscode/settings.json`.
-
-For TDD, you might want to run you test as frequent as possible, you can use the command `yarn test --watch` to do that.
+## tips
+- If you dislike format on save, you can disable it in `.vscode/settings.json`.
+- For TDD, you might want to run you test as frequently as possible, you can use the command `yarn test --watch` to do that.
