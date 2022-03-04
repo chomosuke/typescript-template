@@ -36,6 +36,8 @@ rules:
     - error
     - 80
   '@typescript-eslint/type-annotation-spacing': error
+
+  # try to ensure cohesion
   max-lines:
     - error
     - 1000
