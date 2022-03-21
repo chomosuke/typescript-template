@@ -2032,30 +2032,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-typescript@npm:^16.1.0":
-  version: 16.1.0
-  resolution: "eslint-config-airbnb-typescript@npm:16.1.0"
+"eslint-config-airbnb-typescript@npm:^16.1.4":
+  version: 16.1.4
+  resolution: "eslint-config-airbnb-typescript@npm:16.1.4"
   dependencies:
     eslint-config-airbnb-base: ^15.0.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
-  checksum: 65bb6763ab825c228d01c884ddb306001f3b5cbb5c138646f6629ac780acc68d388091844b3983aa9f8f138e4e972a2a1d5a23ce95bd7a217b4a917e4e2366dd
+    eslint: ^7.32.0 || ^8.2.0
+    eslint-plugin-import: ^2.25.3
+  checksum: 86556b82eccd3a7c5f84c05d6b36b776172a700e2b0ea13552ee7ff2765de68a91dbf399af2ad213f432943b383054ce23df112cd4a243acc6a34add00f6900a
   languageName: node
   linkType: hard
 
 "eslint-config-chomosuke@npm:^0.2.0":
-  version: 0.2.1
-  resolution: "eslint-config-chomosuke@npm:0.2.1"
+  version: 0.2.3
+  resolution: "eslint-config-chomosuke@npm:0.2.3"
   dependencies:
     eslint-config-airbnb-base: ^15.0.0
-    eslint-config-airbnb-typescript: ^16.1.0
+    eslint-config-airbnb-typescript: ^16.1.4
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
     eslint: ^8.10.0
     eslint-plugin-import: ^2.25.4
-  checksum: 51984075c1278f713a895ec25effd40c2e2ad6712dd923d2a14ff89a4c0dcbc3dd7bda2c840a249f6d79780f2c95b9042410665ab032480029cfed909fcd93c3
+  checksum: 7cd758f331705f646450f000788516e3640fbe2638eab40a00d218791dbd2a5c885b5fd5ea0a4d60b747de24e4265a7f332e1150d196bf1b0614f36be5cdee06
   languageName: node
   linkType: hard
 
