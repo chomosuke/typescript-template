@@ -4,9 +4,11 @@
         "transpileOnly": true
     },
     "compilerOptions": {
-        "noImplicitAny": true,
         "noImplicitOverride": true,
-        "strictNullChecks": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
         "outDir": "./build",
         "rootDir": "./src"
     },
