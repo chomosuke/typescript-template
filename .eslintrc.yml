@@ -10,5 +10,13 @@ plugins:
   - '@typescript-eslint'
 ignorePatterns:
   - "build/**/*"
+overrides:
+  - files:
+      - '**/*.test.ts'
+    env:
+      jest: true
+    extends: 'chomoske/jest'
+    plugins:
+      - jest
 rules:
   no-console: off
