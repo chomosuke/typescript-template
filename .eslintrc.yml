@@ -15,7 +15,7 @@ overrides:
       - '**/*.test.ts'
     env:
       jest: true
-    extends: 'chomoske/jest'
+    extends: 'chomosuke/jest'
     plugins:
       - jest
 rules:
